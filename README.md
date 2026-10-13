@@ -34,9 +34,12 @@ Cad/
 git clone [https://github.com/Aprio-wile/Cad.git](https://github.com/Aprio-wile/Cad.git)
 cd Cad
 python -m venv venv
+
 # On macOS/Linux:
 source venv/bin/activate
 # On Windows:
 venv\Scripts\activate
+
 pip install -r requirements.txt
+uvicorn app:app --reload
 streamlit run streamlit_app.py
