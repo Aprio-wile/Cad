@@ -15,13 +15,10 @@ An end-to-end machine learning application that predicts Coronary Artery Disease
 ## Project Structure
 
 ```text
-├── app.py                      # Flask/Web backend application
+├── app.py                      # Streamlit/Web backend application
 ├── CAD_prediction.ipynb        # Jupyter notebook for model training & evaluation
-├── extention of Z-Alizadeh sani dataset.xlsx # Clinical dataset file
-├── model_cath.pkl              # Serialized main CAD prediction model
-├── model_xgb_lad.pkl           # Serialized XGBoost LAD model
-├── model_xgb_lcx.pkl           # Serialized XGBoost LCX model
-├── static/                     # Frontend assets (CSS, JS, 3D models)
+├── extention of Z-Alizadeh sani dataset.xlsx     # Clinical dataset file         #
+├── static/                     # heart 3D model
 └── .vscode/                    # Workspace configuration
 
 ```
